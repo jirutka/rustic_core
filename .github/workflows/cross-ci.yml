@@ -4,14 +4,6 @@ on:
   pull_request:
     paths-ignore:
       - "**/*.md"
-  push:
-    branches:
-      - main
-      - "release/**"
-    paths-ignore:
-      - "**/*.md"
-  merge_group:
-    types: [checks_requested]
 
 defaults:
   run:
