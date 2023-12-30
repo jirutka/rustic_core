@@ -87,6 +87,8 @@ jobs:
           toolchain: ${{ matrix.rust }}
           target: ${{ matrix.job.target }}
           use-cross: ${{ matrix.job.use-cross }}
+          all-features: false
+          feature: cli
 
   result:
     name: Result (Cross-CI)
